@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700');
 
-#course,.displaynone{display:none;}
+#course ,.displaynone{display:none;}
+
 
 body{
   overflow-x:hidden;
@@ -13,6 +14,14 @@ body{
   font-weight: 700;
   letter-spacing: .3rem;
   margin: 0;
+}
+.navbar .logo{
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  margin: 0;
+  text-decoration: none;
 }
 
 .offset:before{
@@ -155,11 +164,12 @@ h3.heading{
 
 /*--Clients section---*/
 #clients{
-  display: none;
 
 }
 .clients{
   margin: 0 auto;
+  display: none;
+
 }
 .clients img{
   width: 50%;
@@ -168,12 +178,14 @@ h3.heading{
 .clients a{
   color: rgb(103,108,160);
 }
-.clients-ig{
+.lead{
 font-weight: normal;}
 .ig{
   color: rgb(116, 116, 116);
 }
-
+#clients a:hover{
+  color:#1ebba3 !important;
+}
 /*--contact section--*/
 footer{
   background-color: #40474e;
